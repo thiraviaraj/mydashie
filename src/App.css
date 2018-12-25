@@ -1,0 +1,261 @@
+/* 
+https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/free-bootstrap-admin-dashboard-templates.jpg
+#Container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+#leftPanel {
+  background-color: #2a3f54;
+  color: white;
+} */
+* {
+  margin: 0px;
+}
+body{
+  font-family: 'Aleo', serif;
+}
+.greyColor {
+  color: #d8d3d3;
+}
+h1 {
+  font-family: 'Staatliches', cursive;
+}
+.titleFont {
+  font-size: x-large;
+  color: white;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#logoHolder {
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+#profImg{
+  padding-left: 12px;
+}
+#titleHolder {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 15fr;
+  padding-left: 10px;
+  margin-bottom: -10px;
+  border-bottom: #888080 solid 1px;
+}
+#textHolder {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  font-size: small;
+}
+[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color:#666666;
+}
+
+body{
+  font-family:"Arial", Serif;
+  background-color:white;
+  overflow-x:hidden;
+}
+
+.navbar{
+  background-color:rgb(237,237,237);
+  overflow:hidden;
+  height:63px;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+  align-items: center;
+  padding-left: 20px;
+}
+#introHolder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.navbar a{
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+}
+
+.navbar ul{
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:#ddd;
+  color:#000; 
+}
+
+#side-menu {
+  color:white;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 40px 80px auto 70px;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color: rgb(42,63,84);
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:10px;
+  /* padding-left: 10px; */
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  overflow:hidden;
+  width:100%;
+  display: grid;
+}
+
+.navbar-nav {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  align-items: center;
+  vertical-align: middle;
+  grid-gap:20px;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
+
+.accordion {
+  background-color: rgb(42,63,84);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+/* 
+.active, .accordion:hover {
+  background-color: #ccc;
+} */
+
+.accordion:after {
+  content: '\25BE';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(42,63,84);
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.MenuItems {
+  display: grid;
+  grid-gap: 10px;
+  list-style-type: square;
+}
+
+#titleHolder > .titleFont {
+  padding-top: 8px;
+}
+
+#leftFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:5px;
+  align-items: center;
+  vertical-align: middle;
+  background: rgb(28, 47, 66);
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+.quickViewBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 150px;
+  padding-left: 30px;
+  border-right: solid black 1px;
+}
+
+#main>#menuList>.quickViewBox:last-child {
+  border-right: none;
+}
+
+#quickViewWidgetViewer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 20px;
+}
+
+.boxTopRow {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-size: small;
+}
+
+.boxLead {
+  font-size: 40px;
+  color: grey;
+}
+
+.smallFont {
+  font-size: small;
+}
+
+.greenColor {
+  color:green;
+}
+
+#pageContent {
+  margin-top: 20px;
+  margin-left: 20px;
+}
