@@ -22,7 +22,7 @@ let HomePage = () => {
                 <div id="pageContent">
         <Router>
            <Switch>
-           <Route path="/" exact strict render={
+           <Route path="/mydashie/" exact render={
                 () => {
                     return ( <>
                         <h1>Welcome to My Homepage</h1>
@@ -30,7 +30,7 @@ let HomePage = () => {
                 }
             }/>
 
-        <Route path="/About" exact strict render={
+        <Route path="/mydashie/About" exact strict render={
                 () => {
                     return ( <>
                         <h1>Welcome to My About</h1>
@@ -38,7 +38,7 @@ let HomePage = () => {
                 }
             }/> 
 
-<Route path="/Services" exact strict render={
+<Route path="/mydashie/Services" exact strict render={
                 () => {
                     return ( <>
                         <h1>Welcome to My Services</h1>
@@ -46,7 +46,7 @@ let HomePage = () => {
                 }
             }/> 
 
-<Route path="/Contact" exact strict render={
+<Route path="/mydashie/Contact" exact strict render={
                 () => {
                     return ( <>
                         <h1>Welcome to My Contact</h1>
