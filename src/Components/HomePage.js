@@ -8,55 +8,56 @@ import SideBar from './SideBar';
 let HomePage = () => {
     
     return (
-        <div id="main">
-                <NavBar></NavBar>
-                <SideBar></SideBar>
-                <div id="quickViewWidgetViewer">
-                    <QuickViewWidget></QuickViewWidget>
-                    <QuickViewWidget></QuickViewWidget>
-                    <QuickViewWidget></QuickViewWidget>
-                    <QuickViewWidget></QuickViewWidget>
-                    <QuickViewWidget></QuickViewWidget>
-                    <QuickViewWidget></QuickViewWidget>
-                </div>
-                <div id="pageContent">
-        <Router>
-           <Switch>
-           <Route path="/mydashie/" exact render={
-                () => {
-                    return ( <>
-                        <h1>Welcome to My Homepage</h1>
-                    </>);
-                }
-            }/>
+    <Router>
+        <>
+            <div id="main">
+                    <NavBar></NavBar>
+                    <SideBar></SideBar>
+                    <div id="quickViewWidgetViewer">
+                        <QuickViewWidget></QuickViewWidget>
+                        <QuickViewWidget></QuickViewWidget>
+                        <QuickViewWidget></QuickViewWidget>
+                        <QuickViewWidget></QuickViewWidget>
+                        <QuickViewWidget></QuickViewWidget>
+                        <QuickViewWidget></QuickViewWidget>
+                    </div>
+                    <div id="pageContent">
+                        
+                        <Route path="/mydashie/" exact render={
+                                () => {
+                                    return ( <>
+                                        <h1>Welcome to My Homepage</h1>
+                                    </>);
+                                }
+                            }/>
 
-        <Route path="/mydashie/About" exact strict render={
-                () => {
-                    return ( <>
-                        <h1>Welcome to My About</h1>
-                    </>);
-                }
-            }/> 
+                            <Route path="/mydashie/About" exact render={
+                                () => {
+                                    return ( <>
+                                        <h1>Welcome to My About</h1>
+                                    </>);
+                                }
+                            }/> 
 
-<Route path="/mydashie/Services" exact strict render={
-                () => {
-                    return ( <>
-                        <h1>Welcome to My Services</h1>
-                    </>);
-                }
-            }/> 
+                            <Route path="/mydashie/Services" exact render={
+                                () => {
+                                    return ( <>
+                                        <h1>Welcome to My Services</h1>
+                                    </>);
+                                }
+                            }/> 
 
-<Route path="/mydashie/Contact" exact strict render={
-                () => {
-                    return ( <>
-                        <h1>Welcome to My Contact</h1>
-                    </>);
-                }
-            }/> 
-            </Switch>
-        </Router>
-        </div>
-        </div>
+                            <Route path="/mydashie/Contact" exact render={
+                                () => {
+                                    return ( <>
+                                        <h1>Welcome to My Contact</h1>
+                                    </>);
+                                }
+                            }/>          
+                    </div>
+            </div>
+        </>
+    </Router>
     )
 }
 
