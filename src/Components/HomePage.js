@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Switch, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import QuickViewWidget from './QuickViewWidget';
@@ -6,7 +6,9 @@ import NavBar from './NavBar';
 import SideBar from './SideBar';
 
 let HomePage = () => {
-    
+    useEffect(()=>{
+        document.title = "My Dashboard";
+    });
     return (
     <Router>
         <>
