@@ -1,0 +1,6 @@
+version: 2.1
+commands:
+  unittest:
+    description: "Check Unit Test Cases"
+    steps:
+      - run: npm test
