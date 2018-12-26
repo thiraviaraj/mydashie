@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/mydashie/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "123a15bd0ba9fdce461d",
+    "revision": "47d3657182c48d74f669",
     "url": "/mydashie/static/css/main.515425ce.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/mydashie/static/js/runtime~main.15956061.js"
   },
   {
-    "revision": "123a15bd0ba9fdce461d",
-    "url": "/mydashie/static/js/main.123a15bd.chunk.js"
+    "revision": "47d3657182c48d74f669",
+    "url": "/mydashie/static/js/main.47d36571.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/mydashie/static/css/1.ce56b83b.chunk.css"
   },
   {
-    "revision": "9c426872c6bc09a29201877e072ec9f0",
+    "revision": "d642e858fcc150cc03e23a66ea890657",
     "url": "/mydashie/index.html"
   }
 ];
