@@ -1,6 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import AccordionWidget from './AccordionWidget';
+import httpWrapper from '../Api/httpWrapper';
 const SidePage = () => {
+    let [sideMenuItems, setSideMenuItems] = useState([]);
+
+    useEffect(()=>{
+        httpWrapper.get('/api/v1/menu').then(res => {
+            setSideMenuItems(res.data);
+        });
+    }
+    )
     return (
         <div id="side-menu" className="side-nav">
             <span id="titleHolder"><span><img alt="title" width="40" src="http://chittagongit.com//images/camtasia-studio-icon/camtasia-studio-icon-17.jpg"></img></span><span className="titleFont">My DashBoard!</span></span>
@@ -15,8 +24,11 @@ const SidePage = () => {
                 </div>
             </span>
             <div id="menuList">
-                <AccordionWidget btnName="Home"></AccordionWidget>
-                <AccordionWidget btnName="Home123"></AccordionWidget>
+                {
+                    sideMenuItems.map((menuItem)=>{
+                        return <AccordionWidget key={menuItem.id} itemName={menuItem.name} nestedMenuItems={menuItem.children}></AccordionWidget>
+                    })
+                }
             </div>
             <div id="leftFooter">
                 <div className="icon"><img width="50" alt="icon1" src="http://chittagongit.com//images/controller-icon/controller-icon-7.jpg"></img></div>

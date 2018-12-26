@@ -226,7 +226,7 @@ body{
   border-right: solid black 1px;
 }
 
-#main>#menuList>.quickViewBox:last-child {
+.quickViewBox:last-child {
   border-right: none;
 }
 

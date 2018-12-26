@@ -12,17 +12,18 @@ let AccordionWidget = (props) => {
                 maxHeight: null
             };
         }
-        
         setPanelStyle(panelStyle);
     }
     return (
         <span>
-            <button onClick={(e) => toggleAccordion(e.target)} className="accordion">{props.btnName}</button>
+            <button onClick={(e) => toggleAccordion(e.target)} className="accordion">{props.itemName}</button>
             <div className="panel" style={panelStyle}>
                 <ul className="MenuItems">
-                    <li className="MenuItem">{props.btnName}</li>
-                    <li className="MenuItem">{props.btnName}</li>
-                    <li className="MenuItem">{props.btnName}</li>
+                    {
+                        props.nestedMenuItems.map((item)=>{
+                            return <li key={item.id} className="MenuItem">{item.name}</li>
+                        })
+                    }
                 </ul>
             </div>
         </span>
