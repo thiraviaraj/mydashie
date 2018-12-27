@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
-import Route from 'react-router-dom/Route';
+import Route, {Switch} from 'react-router-dom/Route';
 import TestClassComp from './testClassComp';
 import MainPage from './mainPage';
 import DisplayCounter from './lifeCycleHooks';
 import SideBar from './Components/SideBar';
+import Login from './Components/login';
 import HomePage from './Components/HomePage';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import './App.css';
@@ -18,8 +19,19 @@ class App extends Component {
             <DisplayCounter></DisplayCounter>
           </MainPage> */}
           {/* <SideBar></SideBar> */}
+          {/* <Switch> */}
+          <Router>
+            <>
+            <Route path="/" exact component={Login} />
+            <Route path="/login" component={Login} />
+            <Route path="/mydashie" component={HomePage} />
+            <Route path="/HomePage" component={HomePage} />
+          </>
+          {/* <Route component={HomePage} /> */}
+          {/* <HomePage></HomePage> */}
           
-          <HomePage></HomePage>
+          </Router>
+          {/* </Switch> */}
         </div>
     );
   }

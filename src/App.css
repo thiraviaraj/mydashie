@@ -195,10 +195,26 @@ body{
   transition: max-height 0.2s ease-out;
 }
 
+.MenuItem {
+  padding: 5px;
+  background: -webkit-linear-gradient(left, #504d27bf 0%, #33408259 100%);
+  /* background: linear-gradient(to right, #33408259 0%, #334082bf 100%); */
+  /* font-size: 14px; */
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.MenuItem:hover {
+  background: #e8c1c1;
+  color: black;
+}
+
 .MenuItems {
   display: grid;
   grid-gap: 10px;
-  list-style-type: square;
+  list-style: none;
+  display: grid;
+  padding-left: 0px;
 }
 
 #titleHolder > .titleFont {
@@ -258,4 +274,73 @@ body{
 #pageContent {
   margin-top: 20px;
   margin-left: 20px;
+}
+
+
+#loginWrapper {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  margin-right: 10px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
 }
