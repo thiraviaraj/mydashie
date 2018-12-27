@@ -1,16 +1,16 @@
 {
-  "main.css": "/mydashie/static/css/main.515425ce.chunk.css",
-  "main.js": "/mydashie/static/js/main.47d36571.chunk.js",
-  "main.js.map": "/mydashie/static/js/main.47d36571.chunk.js.map",
+  "main.css": "/mydashie/static/css/main.9a296cac.chunk.css",
+  "main.js": "/mydashie/static/js/main.9fd6738d.chunk.js",
+  "main.js.map": "/mydashie/static/js/main.9fd6738d.chunk.js.map",
   "static/css/1.ce56b83b.chunk.css": "/mydashie/static/css/1.ce56b83b.chunk.css",
   "static/js/1.1eb5def4.chunk.js": "/mydashie/static/js/1.1eb5def4.chunk.js",
   "static/js/1.1eb5def4.chunk.js.map": "/mydashie/static/js/1.1eb5def4.chunk.js.map",
   "runtime~main.js": "/mydashie/static/js/runtime~main.15956061.js",
   "runtime~main.js.map": "/mydashie/static/js/runtime~main.15956061.js.map",
   "static/media/font-awesome.min.css": "/mydashie/static/media/fontawesome-webfont.fee66e71.woff",
-  "static/css/main.515425ce.chunk.css.map": "/mydashie/static/css/main.515425ce.chunk.css.map",
   "static/css/1.ce56b83b.chunk.css.map": "/mydashie/static/css/1.ce56b83b.chunk.css.map",
+  "static/css/main.9a296cac.chunk.css.map": "/mydashie/static/css/main.9a296cac.chunk.css.map",
   "index.html": "/mydashie/index.html",
-  "precache-manifest.edc909b1d9810723dc89ae7f2e4899ef.js": "/mydashie/precache-manifest.edc909b1d9810723dc89ae7f2e4899ef.js",
+  "precache-manifest.fc559d9867c1490eb0bae38223a1b164.js": "/mydashie/precache-manifest.fc559d9867c1490eb0bae38223a1b164.js",
   "service-worker.js": "/mydashie/service-worker.js"
 }
