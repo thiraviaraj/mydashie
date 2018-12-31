@@ -22,7 +22,7 @@ class App extends Component {
           {/* <Switch> */}
           <Router basename={process.env.PUBLIC_URL}>
             <>
-            <Route path="/" exact component={Login} />
+            {/* <Route path="/" exact component={Login} /> */}
             <Route path="/login" component={Login} />
             <Route path="/mydashie" component={HomePage} />
             <Route path="/HomePage" component={HomePage} />
