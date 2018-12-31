@@ -24,6 +24,9 @@ class App extends Component {
             <>
             {/* <Route path="/" exact component={Login} /> */}
             <Route path="/" exact component={HomePage} />
+            <Route path="/About" exact component={HomePage} />
+            <Route path="/Services" exact component={HomePage} />
+            <Route path="/Contact" exact component={HomePage} />
             <Route path="/login" component={Login} />
             <Route path="/mydashie" component={HomePage} />
             <Route path="/HomePage" component={HomePage} />

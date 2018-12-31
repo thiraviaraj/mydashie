@@ -80,7 +80,7 @@ let HomePage = () => {
                             }}
                             rootProps={{ 'data-testid': '1' }}
                             />
-                            <Route path="/mydashie/" exact render={
+                            <Route path="/" exact render={
                                     () => {
                                         return ( <>
                                             <h1>Welcome to My Homepage</h1>
@@ -90,7 +90,7 @@ let HomePage = () => {
                                     }
                                 }/>
 
-                                <Route path="/mydashie/About" exact render={
+                                <Route path="/About" exact render={
                                     () => {
                                         return ( <>
                                             <h1>Welcome to My About</h1>
@@ -100,7 +100,7 @@ let HomePage = () => {
                                     }
                                 }/> 
 
-                                <Route path="/mydashie/Services" exact render={
+                                <Route path="/Services" exact render={
                                     () => {
                                         return ( <>
                                             <h1>Welcome to My Services</h1>
@@ -110,7 +110,7 @@ let HomePage = () => {
                                     }
                                 }/> 
 
-                                <Route path="/mydashie/Contact" exact render={
+                                <Route path="/Contact" exact render={
                                     () => {
                                         return ( <>
                                             <h1>Welcome to My Contact</h1>

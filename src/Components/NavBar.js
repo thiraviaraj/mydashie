@@ -27,19 +27,19 @@ let NavBar = () => {
                     </svg>
                 </a>
             </span>
-        
+            
             <ul className="navbar-nav">
                 <li>
-                    <NavLink to="/mydashie/" exact activeStyle={{ color:'green' }}>Home</NavLink>
+                    <NavLink to="/" exact activeStyle={{ color:'green' }}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/mydashie/About" exact activeStyle={{ color:'green' }}>About</NavLink>
+                    <NavLink to="/About" exact activeStyle={{ color:'green' }}>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/mydashie/Services" exact activeStyle={{ color:'green' }}>Services</NavLink>
+                    <NavLink to="/Services" exact activeStyle={{ color:'green' }}>Services</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/mydashie/Contact" exact activeStyle={{ color:'green' }}>Contact</NavLink>
+                    <NavLink to="/Contact" exact activeStyle={{ color:'green' }}>Contact</NavLink>
                 </li>
             </ul>
         </nav>
