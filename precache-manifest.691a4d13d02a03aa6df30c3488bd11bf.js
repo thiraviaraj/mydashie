@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/mydashie/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "bcac12a7a2a4c369c357",
+    "revision": "7e38508032119ad18627",
     "url": "/mydashie/static/css/main.edbe93a3.chunk.css"
   },
   {
@@ -20,27 +20,27 @@ self.__precacheManifest = [
     "url": "/mydashie/static/js/runtime~main.15956061.js"
   },
   {
-    "revision": "bcac12a7a2a4c369c357",
-    "url": "/mydashie/static/js/main.bcac12a7.chunk.js"
+    "revision": "7e38508032119ad18627",
+    "url": "/mydashie/static/js/main.7e385080.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/mydashie/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/mydashie/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/mydashie/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/mydashie/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "cb1a698adb21eeb18d18",
     "url": "/mydashie/static/css/1.aef7b79f.chunk.css"
   },
   {
-    "revision": "9fef013ae91a03ce82fab9f4c7aef3bf",
+    "revision": "a8782785d82dbc5adc1828b42942797a",
     "url": "/mydashie/index.html"
   }
 ];
