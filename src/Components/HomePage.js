@@ -45,7 +45,7 @@ let HomePage = () => {
 
     return (
         
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <>
             <Context.Provider value={dispatch}>
                 <div id="main">
@@ -118,7 +118,7 @@ let HomePage = () => {
                                             <button className="Reset" onClick={() => dispatch({ type: 'ResetCounter'})}>Reset</button>
                                         </>);
                                     }
-                                }/>          
+                                }/>       
                         </div>
                 </div>
             </Context.Provider>

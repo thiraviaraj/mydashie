@@ -20,7 +20,7 @@ class App extends Component {
           </MainPage> */}
           {/* <SideBar></SideBar> */}
           {/* <Switch> */}
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <>
             <Route path="/" exact component={Login} />
             <Route path="/login" component={Login} />

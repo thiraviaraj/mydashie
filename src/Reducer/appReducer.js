@@ -57,8 +57,8 @@ function appReducer(state, action) {
                     return data;
                 }
               })
-            // state.widgetData[action.index].percentage = Math.floor((state.widgetData[action.index].totalClicks/state.totalcount)*100);
-    //   }
+        // state.widgetData[action.index].percentage = Math.floor((state.widgetData[action.index].totalClicks/state.totalcount)*100);
+        //   }
         // return [
         //   ...state,
         //   {
