@@ -1,14 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useContext, useEffect} from 'react';
 import AccordionWidget from './AccordionWidget';
 import httpWrapper from '../Api/httpWrapper';
+import {Context} from './HomePage';
+
+
 const SidePage = () => {
     let [sideMenuItems, setSideMenuItems] = useState([]);
-
+    const dispatch = useContext(Context);
     useEffect(()=>{
         httpWrapper.get('/api/v1/menu').then(res => {
             setSideMenuItems(res.data);
         });
-    }
+    }, []
     )
     return (
         <div id="side-menu" className="side-nav">

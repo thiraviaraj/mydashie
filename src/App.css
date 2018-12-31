@@ -301,7 +301,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
 }
 
 button:hover {
@@ -343,4 +343,8 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+.Reset {
+  background-color: #d82626;  
 }

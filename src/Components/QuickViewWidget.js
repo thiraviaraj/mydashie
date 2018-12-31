@@ -1,6 +1,6 @@
 import React from 'react';
 
-let QuickViewWidget = () => {
+let QuickViewWidget = (props) => {
     return (
         <div className="quickViewBox">
             <div className="boxTopRow">
@@ -8,14 +8,14 @@ let QuickViewWidget = () => {
                     <i className="fa fa-user" aria-hidden="true"></i>
                 </div>
                 <div>
-                    Total Users
+                    {props.text}
                 </div>
             </div>
             <div className="boxLead">
-                2500
+                {props.number}
             </div>
             <div className="smallFont">
-                <span className="greenColor">4% </span>from last Week
+                <span className="greenColor">{props.perc}% </span>{props.desc}
             </div>
         </div>
     )
